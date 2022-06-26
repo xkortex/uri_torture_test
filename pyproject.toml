@@ -1,0 +1,73 @@
+[tool.poetry]
+name = "uri-torture-test"
+version = "0.1.0"
+description = "A collection of URIs for testing parsers for RFC3986"
+authors = ["Mike McDermott <mikemcdermott23@gmail.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+black = { version = ">=20.8b1,<23.0", allow-prereleases = true }
+coverage = "^5.5"
+httpx = ">=0.20,<1.0"
+isort = "^5.8.0" # see requirements-format.txt
+lxml = "^4.8.0"
+mypy = ">0.901,<1.0"
+pydantic = { version = "^1.9", extras=["email"]}
+pyrsistent = "^0.18.0"
+pytest-cov = "^2.12.0"
+pytest = "^6.2"
+rfc3986 = { version = "^1.3.0", extras=["idna2008"] }
+
+[tool.black]
+skip-string-normalization = true
+line-length = 120
+target-version = ['py38']
+
+[tool.isort]
+profile = "black"
+line_length = 120
+known_first_party = ["uri_torture_test"]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-p no:doctest --strict-markers"
+norecursedirs = ".git ignore build __pycache__"
+testpaths = [
+    "uri_torture_test",
+    "tests",
+]
+filterwarnings = [
+    "default",
+    "ignore::DeprecationWarning:distutils",
+    "ignore::DeprecationWarning:Cython",
+    "ignore:.*Define the __nice__ method for.*:Warning",
+    "ignore:.*private pytest class or function.*:Warning",
+    "ignore:.*pygments is not installed, text will not be colored*:Warning",  # xdoctest
+]
+asyncio_mode = 'strict'
+
+[tool.coverage.run]
+source = ["uri_torture_test", "tests"]
+branch = true
+
+[tool.coverage.report]
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "raise NotImplemented",
+    "if TYPE_CHECKING:",
+    "@overload",
+    "# noqa",
+]

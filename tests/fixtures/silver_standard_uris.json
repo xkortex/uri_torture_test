@@ -1,0 +1,118 @@
+[
+  {
+    "uri": "http://example.com",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://www.example.com",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://✪df.ws/123",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid:password@example.com:8080",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid:password@example.com:8080/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid@example.com",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid@example.com/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid@example.com:8080",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid@example.com:8080/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid:password@example.com",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://userid:password@example.com/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://142.42.1.1/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://142.42.1.1:8080/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://➡.ws/䨹",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://⌘.ws",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://⌘.ws/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.com/blah_(wikipedia)#cite-1",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.com/blah_(wikipedia)_blah#cite-1",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.com/unicode_(✪)_in_parens",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.com/(something)?after=parens",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://☺.damowmow.com/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://code.google.com/events/#&product=browser",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://j.mp",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "ftp://foo.bar/baz",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.bar/?q=Test%20URL-encoded%20stuff",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://مثال.إختبار",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://例子.测试",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://[2001:db8:85a3:8d3:1319:8a2e:370:7348]/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "https://[2001:db8:85a3:8d3:1319:8a2e:370:7348]:443/, ",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  }
+]

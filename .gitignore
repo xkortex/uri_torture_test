@@ -1,3 +1,10 @@
+# Misc. IDE/OS artifacts
+*.swp
+*.idea/
+**/.DS_Store
+__MACOSX
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -50,6 +57,7 @@ coverage.xml
 *.py,cover
 .hypothesis/
 .pytest_cache/
+.mypy_coverage/
 
 # Translations
 *.mo
@@ -127,3 +135,22 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# gomplate secret
+secret.yaml
+
+# big files
+*.pkl
+*.pickle
+*.parquet
+*.feather
+*.gz
+*.zip
+*.zst
+*.png
+*.jpe?g
+*.tiff?
+
+
+# Emacs temp files
+**~

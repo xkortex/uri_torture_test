@@ -1,0 +1,22 @@
+[
+  {
+    "uri": "rdar://1234",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://a.b--c.de/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://1.1.1.1.1",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://123.123.123",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://3628126748",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  }
+]

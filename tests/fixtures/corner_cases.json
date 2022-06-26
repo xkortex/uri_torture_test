@@ -1,0 +1,22 @@
+[
+  {
+    "uri": "http://✪df.ws/123",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://➡.ws/䨹",
+    "source":  "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://⌘.ws",
+    "source":  "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://⌘.ws/",
+    "source":  "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://☺.damowmow.com/",
+    "source":  "https://mathiasbynens.be/demo/url-regex"
+  }
+]

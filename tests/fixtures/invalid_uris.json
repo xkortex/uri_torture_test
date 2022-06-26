@@ -1,0 +1,106 @@
+[
+  {
+    "uri": "http://",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://.",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://..",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://../",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://?",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://??",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://??/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://#",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://##",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://##/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.bar?q=Spaces should be encoded",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "//",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "//a",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "///a",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "///",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http:///a",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "foo.com",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "h://test",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http:// shouldfail.com",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": ":// should fail",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://foo.bar/foo(bar)baz quux",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://-error-.invalid/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://-a.b.co",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://a.b-.co",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://.www.foo.bar/",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  },
+  {
+    "uri": "http://.www.foo.bar./,}",
+    "source": "https://mathiasbynens.be/demo/url-regex"
+  }
+]
